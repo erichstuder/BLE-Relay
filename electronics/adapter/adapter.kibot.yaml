@@ -28,6 +28,7 @@ outputs:
       - 'B.Cu'
       - 'F.Paste'
       - 'F.Silkscreen'
+      - 'B.Silkscreen'
       - 'F.Mask'
       - 'B.Mask'
       - 'Edge.Cuts'
