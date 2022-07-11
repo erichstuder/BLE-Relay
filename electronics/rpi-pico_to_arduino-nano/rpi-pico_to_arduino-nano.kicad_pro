@@ -431,7 +431,7 @@
   ],
   "text_variables": {
     "GIT-COMMIT-HASH": "noHash",
-    "GIT-COMMIT_TAG": "noTag",
+    "GIT-COMMIT-TAG": "noTag",
     "PROJECT": "BLE-Relay",
     "PROJECT-URL": "https://github.com/erichstuder/BLE-Relay"
   }
