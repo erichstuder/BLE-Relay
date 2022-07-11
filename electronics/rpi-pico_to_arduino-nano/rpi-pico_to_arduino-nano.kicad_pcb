@@ -5,6 +5,14 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "rpi-pico_to_arduino-nano")
+    (comment 1 "${PROJECT}")
+    (comment 2 "${PROJECT-URL}")
+    (comment 3 "${GIT-COMMIT-HASH}")
+    (comment 4 "${GIT-COMMIT-TAG}")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -86,6 +94,11 @@
       (outputdirectory "")
     )
   )
+
+  (property "GIT-COMMIT-HASH" "noHash")
+  (property "GIT-COMMIT_TAG" "noTag")
+  (property "PROJECT" "BLE-Relay")
+  (property "PROJECT-URL" "https://github.com/erichstuder/BLE-Relay")
 
   (net 0 "")
   (net 1 "/GPIO1")
@@ -3004,6 +3017,9 @@
   (gr_line (start 172.72 81.28) (end 172.72 133.985) (layer "Edge.Cuts") (width 0.1) (tstamp 6e55975e-40e0-412b-b521-73748037e34a))
   (gr_line (start 130.81 81.28) (end 172.72 81.28) (layer "Edge.Cuts") (width 0.1) (tstamp 7bbcb5c2-a6bf-4f79-a0ba-67d252182a4e))
   (gr_line (start 130.81 133.985) (end 130.81 81.28) (layer "Edge.Cuts") (width 0.1) (tstamp 8118daa3-ac24-41bf-a698-fc2ad501d309))
+  (gr_text "${PROJECT}\n${PROJECT-URL}\ntag: ${GIT-COMMIT-TAG} | commit: ${GIT-COMMIT-HASH}" (at 168.91 132.08 90) (layer "F.SilkS") (tstamp bd9febfb-f4e8-42e7-9f98-c29c384bae68)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
 
   (segment (start 158.75 87.63) (end 158.75 126.365) (width 0.25) (layer "F.Cu") (net 1) (tstamp 26f41a88-2582-4afa-840e-83762af5eecc))
   (via (at 158.75 126.365) (size 0.4) (drill 0.2) (layers "F.Cu" "B.Cu") (net 1) (tstamp 376b6539-b0bc-4a82-ba7d-2baf8d9b1ec1))
@@ -3072,9 +3088,8 @@
   (segment (start 153.065 104.14) (end 152.43 104.775) (width 0.25) (layer "B.Cu") (net 8) (tstamp 0fab03cb-6255-4027-8fa5-98710b85b005))
   (segment (start 153.67 104.14) (end 160.02 104.14) (width 0.25) (layer "B.Cu") (net 8) (tstamp 7e80da47-e26d-4d80-bec0-0292aa1c999f))
   (segment (start 153.67 104.14) (end 153.065 104.14) (width 0.25) (layer "B.Cu") (net 8) (tstamp bb97eabf-431f-47b3-b890-df4c7fca12c5))
-  (segment (start 154.305 104.840036) (end 153.100036 106.045) (width 0.25) (layer "F.Cu") (net 9) (tstamp 99427904-e0ea-46a2-a1a4-0ec20149bcf5))
-  (segment (start 153.100036 106.045) (end 144.78 106.045) (width 0.25) (layer "F.Cu") (net 9) (tstamp d7d86cad-e0a0-40cf-a03a-6518b1abcbb1))
-  (segment (start 154.305 102.87) (end 154.305 104.840036) (width 0.25) (layer "F.Cu") (net 9) (tstamp f2515dec-f646-4243-9708-da2cb9bda1f1))
+  (segment (start 154.305 102.87) (end 154.305 106.045) (width 0.25) (layer "F.Cu") (net 9) (tstamp 7c8ef134-a438-455a-b4c7-58375df3e5d2))
+  (segment (start 154.305 106.045) (end 144.78 106.045) (width 0.25) (layer "F.Cu") (net 9) (tstamp f25345b0-286c-4b24-86ca-f8f1d22a230a))
   (via (at 154.305 102.87) (size 0.4) (drill 0.2) (layers "F.Cu" "B.Cu") (net 9) (tstamp d457ca0a-20d7-45aa-82d0-d36f36d9b44c))
   (segment (start 154.305 102.87) (end 153.065 102.87) (width 0.25) (layer "B.Cu") (net 9) (tstamp 846ed51c-887c-4a1e-b225-de77e6ab2326))
   (segment (start 153.065 102.87) (end 152.43 102.235) (width 0.25) (layer "B.Cu") (net 9) (tstamp d3834c7e-cc55-4fae-b817-eafc88403984))

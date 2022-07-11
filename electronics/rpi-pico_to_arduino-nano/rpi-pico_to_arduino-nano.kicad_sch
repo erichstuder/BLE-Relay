@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "rpi-pico_to_arduino-nano")
+    (comment 1 "${PROJECT}")
+    (comment 2 "${PROJECT-URL}")
+    (comment 3 "${GIT-COMMIT-HASH}")
+    (comment 4 "${GIT-COMMIT-TAG}")
+  )
+
   (lib_symbols
     (symbol "Jumper:SolderJumper_2_Bridged" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (id 0) (at 0 2.032 0)
