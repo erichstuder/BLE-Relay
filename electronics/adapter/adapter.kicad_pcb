@@ -6,7 +6,7 @@
 
   (paper "A4")
   (title_block
-    (title "rpi-pico_to_arduino-nano")
+    (title "Adapter")
     (comment 1 "${PROJECT}")
     (comment 2 "${PROJECT-URL}")
     (comment 3 "${GIT-COMMIT-HASH}")
@@ -96,8 +96,8 @@
   )
 
   (property "GIT-COMMIT-HASH" "noHash")
-  (property "GIT-COMMIT_TAG" "noTag")
-  (property "PROJECT" "BLE-Relay")
+  (property "GIT-COMMIT-TAG" "noTag")
+  (property "PROJECT" "BLE-Relay - Adapter")
   (property "PROJECT-URL" "https://github.com/erichstuder/BLE-Relay")
 
   (net 0 "")

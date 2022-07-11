@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "rpi-pico_to_arduino-nano")
+    (title "Adapter")
     (comment 1 "${PROJECT}")
     (comment 2 "${PROJECT-URL}")
     (comment 3 "${GIT-COMMIT-HASH}")

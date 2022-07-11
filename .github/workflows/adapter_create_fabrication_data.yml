@@ -23,10 +23,10 @@ jobs:
     # see: https://github.com/INTI-CMNB/KiBot/issues/206
     - uses: INTI-CMNB/KiBot@v2_dk6
       with:
-        config: electronics/rpi-pico_to_arduino-nano/rpi-pico_to_arduino-nano.kibot.yaml
+        config: electronics/adapter/adapter.kibot.yaml
         dir: fabrication_data
-        schema: electronics/rpi-pico_to_arduino-nano/rpi-pico_to_arduino-nano.kicad_sch
-        board: electronics/rpi-pico_to_arduino-nano/rpi-pico_to_arduino-nano.kicad_pcb
+        schema: electronics/adapter/adapter.kicad_sch
+        board: electronics/adapter/adapter.kicad_pcb
 
     - name: upload results
       uses: actions/upload-artifact@v3
