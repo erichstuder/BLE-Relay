@@ -8,7 +8,7 @@ on:
 
 jobs:
   create_fabrication_data:
-    uses: ./.github/workflows/create_fabrication_data.yml
+    uses: ./.github/workflows/adapter_create_fabrication_data.yml
     
   create_release:
     runs-on: ubuntu-18.04
